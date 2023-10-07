@@ -38,7 +38,6 @@ final = []
 while (index < sub_size):
     final.append(bifid.table[sublist[index]][sublist[index+1]])
     index = index + 2
-final_size = len(final)
 print("Encrypted word is : ",end="")
 for final_letter in final:
     print(final_letter,end="")
