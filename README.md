@@ -1,2 +1,2 @@
 # Bifid-Cipher
-Encryption using bifid cipher . 
+Encryption and Decryption using bifid cipher . 
