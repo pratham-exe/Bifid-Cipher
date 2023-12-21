@@ -56,13 +56,13 @@ for i in range(rowsize):
         output1.append('J')
     else:
         output1.append(bifid.table[rowlist[i]][collist[i]])
-key_decrypt = input("\nKey please : ")
+key_decrypt = input("\nKey please: ")
 if key_decrypt == bifid_encryption.key:
-    print("Decrypted word is : ",end="")
+    print("Decrypted word is: ", end="")
     for ouput_letter in output:
-        print(ouput_letter,end="")
-    print(" / ",end="")
+        print(ouput_letter, end="")
+    print(" / ", end="")
     for output1_letter in output1:
-        print(output1_letter,end="")
+        print(output1_letter, end="")
 else:
-    print("Sorry ! Key not matching .")
+    print("Sorry! Key not matching.")

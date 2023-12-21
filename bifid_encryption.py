@@ -1,6 +1,6 @@
 import bifid
-plaintext = input("Enter the word to be encrypted : ").upper()
-key = input("Enter the key to protect this plaintext word : ")
+plaintext = input("Enter the word to be encrypted: ").upper()
+key = input("Enter the key to protect this plaintext word: ")
 plainlist = []
 rowlist = []
 columnlist = []
@@ -38,6 +38,6 @@ final = []
 while (index < sub_size):
     final.append(bifid.table[sublist[index]][sublist[index+1]])
     index = index + 2
-print("Encrypted word is : ",end="")
+print("Encrypted word is: ", end="")
 for final_letter in final:
-    print(final_letter,end="")
+    print(final_letter, end="")
